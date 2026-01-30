@@ -1,0 +1,113 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dev Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--dart-define-from-file=config/secrets_dev.json"
+            ]
+        },
+        {
+            "name": "Staging Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "staging",
+                "--dart-define-from-file=config/secrets_staging.json"
+            ]
+        },
+        {
+            "name": "Prod Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--dart-define-from-file=config/secrets_prod.json"
+            ]
+        },
+        {
+            "name": "Dev Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--dart-define-from-file=config/secrets_dev.json"
+            ]
+        },
+        {
+            "name": "Staging Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "staging",
+                "--dart-define-from-file=config/secrets_staging.json"
+            ]
+        },
+        {
+            "name": "Prod Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--dart-define-from-file=config/secrets_prod.json"
+            ]
+        },
+        {
+            "name": "Dev Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--dart-define-from-file=config/secrets_dev.json"
+            ]
+        },
+        {
+            "name": "Staging Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "staging",
+                "--dart-define-from-file=config/secrets_staging.json"
+            ]
+        },
+        {
+            "name": "Prod Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--dart-define-from-file=config/secrets_prod.json"
+            ]
+        }
+    ]
+}

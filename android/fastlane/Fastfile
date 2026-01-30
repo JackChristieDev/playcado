@@ -1,0 +1,40 @@
+default_platform(:android)
+
+platform :android do
+  desc "Runs tests and builds a release APK"
+  lane :release_local do
+    
+    # 1. Define Project Root
+    fastfile_dir = File.dirname(__FILE__)
+    project_root = File.expand_path("../..", fastfile_dir)
+    
+    puts "📂 Project Root: #{project_root}"
+
+    # 2. Run Tests
+    test_dir = File.join(project_root, "test")
+    if File.directory?(test_dir)
+      puts "🧪 Running Flutter Tests..."
+      sh "cd '#{project_root}' && flutter test"
+    end
+
+    # 3. Build APK
+    puts "🏗️  Building Release APK..."
+    gradle(
+      task: "assemble",
+      build_type: "Release"
+    )
+
+    # 4. Find and Copy the APK to Project Root
+    # Flutter puts builds in <root>/build/app/outputs/apk/release/
+    source_apk = File.join(project_root, "build", "app", "outputs", "apk", "release", "app-release.apk")
+    destination_apk = File.join(project_root, "release", "playcado-release.apk")
+
+    if File.exist?(source_apk)
+      FileUtils.cp(source_apk, destination_apk)
+      puts "✅ Build Successful!"
+      puts "🚀 Release APK saved to: #{destination_apk}"
+    else
+      UI.user_error!("❌ Could not find APK at #{source_apk}")
+    end
+  end
+end

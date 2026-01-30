@@ -1,0 +1,45 @@
+app:
+  android:
+    flavorDimensions: "flavor"
+  ios:
+    bundleId: "com.jackchristie.playcado"
+    
+instructions:
+ - assets:download
+ - assets:extract
+ - android:androidManifest
+ - android:flavorizrGradle
+ - android:buildGradle
+ - android:dummyAssets
+ - ios:podfile
+ - ios:xcconfig
+ - ios:buildTargets
+ - ios:schema
+ - ios:dummyAssets
+ - ios:plist
+ 
+flavors:
+  dev:
+    app:
+      name: "Playcado Dev"
+    android:
+      applicationId: "com.jackchristie.playcado.dev"
+    ios:
+      bundleId: "com.jackchristie.playcado.dev"
+
+  staging:
+    app:
+      name: "Playcado Staging"
+    android:
+      applicationId: "com.jackchristie.playcado.staging"
+    ios:
+      bundleId: "com.jackchristie.playcado.staging"
+
+  prod:
+    app:
+      name: "Playcado"
+    android:
+      applicationId: "com.jackchristie.playcado"
+    ios:
+      bundleId: "com.jackchristie.playcado"
+      

@@ -1,0 +1,156 @@
+{
+  "aToZ": "A to Z",
+  "about": "About",
+  "active": "Active",
+  "addedToCastQueue": "Added to cast queue",
+  "alphabetical": "Alphabetical",
+  "appThemeColor": "App Theme Color",
+  "appearance": "Appearance",
+  "audio": "Audio",
+  "audioAndSubtitles": "Audio & subtitles",
+  "auto": "Auto",
+  "availableDevices": "Available devices",
+  "browseLibrary": "Browse Library",
+  "cancel": "Cancel",
+  "cast": "Cast",
+  "castManagement": "Cast management",
+  "castingToDevice": "Casting to device",
+  "colorBlue": "Blue",
+  "colorBlueGrey": "Blue grey",
+  "colorCustom": "Custom",
+  "colorDeepOrange": "Deep orange",
+  "colorDeepPurple": "Deep purple",
+  "colorGreen": "Green",
+  "colorIndigo": "Indigo",
+  "colorLightBlue": "Light blue",
+  "colorOrange": "Orange",
+  "colorPink": "Pink",
+  "colorPurple": "Purple",
+  "colorRed": "Red",
+  "colorTeal": "Teal",
+  "completed": "Completed",
+  "connectToYourServerToDownloadContent": "Connect to your server to download content for offline viewing.",
+  "connectedTo": "Connected to {deviceName}",
+  "@connectedTo": {
+    "placeholders": {
+      "deviceName": {
+        "type": "String"
+      }
+    }
+  },
+  "connectingTo": "Connecting to {deviceName}...",
+  "@connectingTo": {
+    "placeholders": {
+      "deviceName": {
+        "type": "String"
+      }
+    }
+  },
+  "continueText": "Continue",
+  "continueWatching": "Continue Watching",
+  "delete": "Delete",
+  "deleteDownload": "Delete download",
+  "deletedItem": "Deleted {name}",
+  "@deletedItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "devTools": "Dev Tools",
+  "download": "Download",
+  "downloadCancelled": "Download cancelled",
+  "downloadSeason": "Download {seasonName}",
+  "@downloadSeason": {
+    "placeholders": {
+      "seasonName": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadStarted": "Download started",
+  "downloadedContentIsAvailableOffline": "Downloaded content is available offline.",
+  "downloadedContentOnly": "Downloaded content only",
+  "downloading": "Downloading",
+  "downloadingEpisode": "Downloading episode...",
+  "downloadingSeason": "Downloading season...",
+  "downloads": "Downloads",
+  "exitOfflineMode": "Exit Offline Mode",
+  "failed": "Failed",
+  "failedToCastMedia": "Failed to cast media",
+  "featured": "Featured",
+  "full": "Full",
+  "home": "Home",
+  "localNetworkAccess": "Local Network Access",
+  "login": "Login",
+  "loginFailedCheckCredentials": "Login failed. Please check your credentials and network connection.",
+  "manageServers": "Manage Servers",
+  "mediaType": "Media",
+  "menu": "Menu",
+  "movies": "Movies",
+  "moviesAndEpisodesYouDownloadWillAppearHere": "Movies and episodes you download will appear here.",
+  "newestFirst": "Newest First",
+  "next": "Next",
+  "noActiveDownloads": "No active downloads",
+  "noDownloadsYet": "No downloads yet",
+  "noItemsFound": "No {items} found.",
+  "@noItemsFound": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "noOfflineContent": "No offline content",
+  "noResultsFound": "No results found",
+  "noTracksAvailable": "No tracks available",
+  "off": "Off",
+  "offlineDownloads": "Offline Downloads",
+  "offlineMode": "Offline Mode",
+  "orAddNewServer": "Or add new server",
+  "overview": "Overview",
+  "password": "Password",
+  "pause": "Pause",
+  "paused": "Paused",
+  "play": "Play",
+  "playOffline": "Play Offline",
+  "playcado": "Playcado",
+  "pleaseCheckYourConnectionAndTryAgain": "Please check your connection and try again.",
+  "privacyPolicy": "Privacy Policy",
+  "queue": "Queue",
+  "queued": "Queued...",
+  "recentlyAddedMovies": "Recently Added Movies",
+  "recentlyAddedTv": "Recently Added TV",
+  "rememberCredentials": "Remember credentials",
+  "resume": "Resume",
+  "retry": "Retry",
+  "savedAccounts": "Saved Accounts",
+  "searchPlaceholder": "Search movies, tv, episodes...",
+  "searchingForDevices": "Searching for devices...",
+  "selectAColorToCustomizeTheAppsLookAndFeel": "Select a color to customize the app's look and feel.",
+  "selectADevice": "Select a Device",
+  "serverUrlLabel": "Server URL (http://...)",
+  "settings": "Settings",
+  "stop": "Stop",
+  "stopCasting": "Stop casting",
+  "stopCastingConfirmationMessage": "Are you sure you want to stop casting this media?",
+  "stopCastingConfirmationTitle": "Stop Casting?",
+  "subtitles": "Subtitles",
+  "termsOfService": "Terms of Service",
+  "toCastMoviesAndShowsToYourTv": "To cast movies and shows to your TV (Chromecast/Google Cast), Playcado needs permission to discover devices on your local network.",
+  "tv": "TV",
+  "tvShows": "TV Shows",
+  "typeToSearch": "Type to search your library",
+  "unableToLoadContent": "Unable to load content",
+  "unknown": "Unknown",
+  "unwatched": "Unwatched",
+  "upNext": "Up Next",
+  "username": "Username",
+  "viewDetails": "View details",
+  "viewOfflineDownloads": "View offline downloads",
+  "watched": "Watched",
+  "weDoNotAccessYourPersonalData": "We do not access your personal data or track your browsing history.",
+  "welcomeToPlaycado": "Welcome to Playcado",
+  "yourModernLightweightClient": "Your modern, lightweight client for Jellyfin media servers."
+}
