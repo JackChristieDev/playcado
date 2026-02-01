@@ -2,7 +2,7 @@ name: playcado
 description: "A Jellyfin client for iOS and Android"
 publish_to: 'none'
 
-version: 1.0.0+9
+version: 1.0.0+10
 
 environment:
   sdk: ^3.8.0
